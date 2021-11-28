@@ -1,0 +1,165 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    color: #1f2f56;
+}
+
+h2 {
+    font-weight: 700;
+    color: #1f2f56;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+p {
+    color: #7280a7;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: #3829e0;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 450px;
+    margin: 100px auto 50px auto;
+    border-radius: 20px;
+}
+
+.image-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content {
+    padding: 0 50px 0 50px;
+}
+
+.subscription {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    background-color: #f5f7ff;
+    border-radius: 10px;
+    padding: 0 70px;
+    margin-bottom: 25px;
+}
+
+.icon img {
+    position: relative;
+    right: 40px;
+}
+
+.price {
+    position: relative;
+    right: 20px;
+}
+
+.price p {
+    margin-top: 0;
+}
+
+.change {
+    position: relative;
+    left: 30px;
+    background-color: #f5f7ff;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #3829e0;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: #7280a7;
+}
+
+.payment {
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    background-color: #3829e0;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 15px 110px;
+    box-shadow: 0px 11px 24px -8px rgb(56 41 224 / 50%);
+    margin-bottom: 30px;
+}
+
+.payment:hover {
+    background-color: #7280a7;
+}
+
+.cancel {
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: #7280a7;
+    font-size: 16px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.cancel:hover {
+    color: #1f2f56;
+}
+
+@media (max-width: 400px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .main {
+        width: 330px;
+        margin: 60px auto 50px auto;
+    }
+    .image-top {
+        width: 330px;
+    }
+    .content {
+        padding: 0 40px;
+    }
+    .subscription {
+        padding: 0 40px;
+    }
+    .icon img {
+        right: 20px;
+    }
+    .price {
+        right: 10px;
+    }
+    .price p {
+        font-size: 14px;
+    }
+    .change {
+        font-size: 14px;
+        left: 25px;
+    }
+    .payment {
+        font-size: 14px;
+        padding: 15px 65px;
+    }
+    .cancel {
+        font-size: 14px;
+    }
+}
